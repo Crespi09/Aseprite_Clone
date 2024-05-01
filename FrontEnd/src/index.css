@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 4px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  align-items: center;
+  /* max-width: 700px; */
+  margin: 10px auto;
+  /* padding: 20px; */
+}
+
+.contentHome{
+  max-width: 700px;
+  align-items: center;
+  margin: inherit;
+
+}
+
+.contentNewFile{
+  max-width: 100%;
+  align-items: center;
+  margin: inherit;
+  padding: 20px;
+}
+
+.spanWidth{
+  vertical-align: -webkit-baseline-middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.liColorFile{
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.nameApp{
+  /* color: #f1356d; */
+
+  font-weight: bold; /* Spessore del testo */
+  color: transparent; /* Rende il testo trasparente */
+  background: -webkit-linear-gradient(left, #f29263, #ee5a6f); /* Sfumatura del testo */
+  -webkit-background-clip: text; /* Applica la sfumatura solo al testo */
+  background-clip: text; /* Applica la sfumatura solo al testo */
+
+
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  font-size: 25pt;
+  font-weight: 500;
+}
+
+
+.pickColorDiv{
+  margin-top: 20px;
+}
+
+.paletteDiv{
+  margin-top: 10px;
+}
+
+.paletteDivElements{
+  cursor : pointer;
+  width: 70%;
+}
+
+/* #canvas {
+  cursor: pointer;
+}
+
+#guide {
+  display: grid;
+  pointer-events: none;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#guide div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ */
+
+
+ /* RegisterPage - LoginPage*/
+ .container{
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group{
+  margin-bottom: 30px;
+}
+
+/* filesDiv css */
+
+
+.filesDiv{
+  cursor: pointer;
+}
+.filesDiv:hover{
+  background-color: red;
+}
